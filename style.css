@@ -17,27 +17,36 @@ nav{
     font-size: 14px;
 }
 
+header>.menu{
+    animation: UPtoDOWN 1.5s 1 backwards ease-out;
+}
+
 .menu {
     nav{
         margin-top: 30px;
     }
     .menu1{
         margin: 0px 0px 0px 170px;
-        transition: color 0.2s;
-        a{
-
-        }
+        transition: color 0.2s ease;
+    }
+    .menu2{
+        transition: color 0.2s ease ;
     }
 }
 
-.menu1 a:hover{
+.menu1 a:hover, .menu2 a:hover{
     color:#393636;
+    animation: menu 1s 1 backwards ease-in-out;
 }
 
 .logo{
     position: absolute;
     margin-top: 20px;
     margin-left: 30px;
+}
+
+.logo:hover{
+    animation: normalzoom 2s 1 backwards ease-in;
 }
 
 .menu1 a{
@@ -67,10 +76,17 @@ a{
     margin: 10px 190px;
 }
 
+.first>img{
+    margin-top: 0px;
+    animation: RtoL 2s 1 backwards ease-out;
+}
+
 .first>p{
-    margin: 0px 485px 20px 520px;
+    margin: -25px 485px 0px 520px;
+    position: absolute;
     font-weight: 600;
     font-size: 16px;
+    animation: LtoR 2s 1 backwards ease-out;
 }
 
 article{
@@ -82,39 +98,69 @@ article{
         font-size: 48px;
         text-align: center;
         margin-top: 50px;
+        animation: RtoL_transparent 2s 2s 1 backwards ease;
+        transition: all 0.2s ease;
+    }
+
+    h1:hover{
+        font-size: 49px;
+        cursor: pointer;
     }
 
     h2{
         font-size: 38px;
         text-align: center;
         margin-top: 50px;
+        animation: LtoR_transparent 2s 4s 1 backwards ease;
+        transition: all 0.2s ease;
+    }
+
+    h2:hover{
+        font-size: 39px;
+        cursor: pointer;
     }
 }
 
 .strength1{
     display: flex;
+    animation: zoom 2s 3s 1 backwards ease;
 }
 
 .support{
     margin: 70px 20px 40px 200px;
     display: inline-block;
     text-align: center;
+    transition: all 0.2s ease;
+    box-sizing: border-box;
 }
 
 .cashback{
     margin: 70px 10px 40px 10px;
     display: inline-block;
     text-align: center;
+    transition: all 0.2s ease;
+    box-sizing: border-box;
 }
 
 .payment{
     margin: 70px 200px 40px 20px;
     display: inline-block;
     text-align: center;
+    transition: all 0.2s ease;
+    box-sizing: border-box;
+}
+
+.payment:hover, .cashback:hover, .support:hover{
+    cursor: pointer;
+    background-color:#D9D9D9;
+    border-radius: 10px;
+    padding: 2%;
+    box-shadow: 0px 0px 5px 5px rgba(70, 66, 66, 0.2);
 }
 
 .second{
     background-color: #E2E6E9;
+    margin-top: 10px;
 }
 
 .strength2{
@@ -136,6 +182,7 @@ article{
     margin: 80px 15px;
     box-sizing: border-box;
     transition: all 0.2s ease;
+    animation: DOWNtoUP_transparent 2s 7s 1 backwards ease-out;
     a{
         color: white;
         background-color: #201F1F;
@@ -180,6 +227,7 @@ article{
     margin: 120px 15px;
     box-sizing: border-box;
     transition: all 0.2s ease;
+    animation: DOWNtoUP_transparent 2s 5s 1 backwards ease-out;
     h3{
         font-size: 18px;
     }
@@ -206,6 +254,7 @@ article{
     min-width: 100px;
     box-sizing: border-box;
     transition: all 0.2s ease;
+    animation: DOWNtoUP_transparent 2s 6s 1 backwards ease-out;
     .headset{
         position: absolute;
         margin: 60px 0px 0px -40px;
@@ -234,12 +283,14 @@ article{
     h1{
         font-weight: 800;
         font-size: 48px;
-        margin: 20px 30px;
+        margin: 0px 30px 10px 30px;
+        animation: UPtoDOWN_transparent 2s 8s 1 backwards ease;
     }
     .category{
         margin: 20px;
         display: flex;
         justify-content: space-around;
+        animation: fade 2s 9s 1 backwards ease-in-out;
     }
     .buy{
         align-content: center;
@@ -248,6 +299,8 @@ article{
         min-height: 200px;
         background-color: white;
         border: solid black 7px;
+        box-sizing: border-box;
+        transition: all 0.2s ease;
         .price{
             display: flex;
             margin: 15px 65px;
@@ -266,6 +319,8 @@ article{
         min-height: 200px;
         background-color: white;
         border: solid #D9D9D9 7px;
+        box-sizing: border-box;
+        transition: all 0.2s ease;
         .price{
             display: flex;
             margin: 15px 65px;
@@ -276,6 +331,10 @@ article{
         .cart{
             margin: -42px 5px;
         }
+    }
+
+    .buy:hover, .buy_grey:hover{
+        box-shadow: 0px 0px 5px 5px rgba(128, 128, 128, 0.2);
     }
 }
 
@@ -290,6 +349,7 @@ article{
         padding: 15px;
         border-radius: 84px;
         font-weight: 600;
+        transition: all 0.2s ease;
     }
     h1{
         font-size: 98px;
@@ -314,8 +374,10 @@ article{
         transform: rotate(14.59deg);
         margin: -20px 0px 0px 10px;
     }
+
     .sale2{
         margin: 120px 0px 120px 80px;
+        animation: RtoL 2s 11s 1 backwards ease-out;
     }
     .blocks{
         margin: 20px 5px 30px 5px;
@@ -333,16 +395,28 @@ article{
     .protection{
         margin-left: 20px;
     }
+    a:hover{
+        background-color: #939191;
+        color:white;
+    }
 }
 
 .fifth{
     background-color: #F2F2F2;
     margin-top: 60px;
     text-align: center;
+    box-sizing: border-box;
     h1{
         font-size: 34px;
         padding: 3%;
+        animation: UPtoDOWN_transparent 2s 13s 1 backwards ease-out;
+        transition: all 0.2s ease;
     }
+
+    h1:hover{
+        font-size: 36px;
+    }
+
     h3{
         font-size: 16px;
     }
@@ -361,6 +435,9 @@ article{
         margin: 20px 10px 20px 20px;
         border-radius: 30px;
         padding: 2%;
+        box-sizing: border-box;
+        transition: all 0.5s ease;
+        animation: fade 1s 14s 1 backwards ease-in-out;
     }
 
     .review2{
@@ -369,6 +446,9 @@ article{
         margin: 20px 0px;
         border-radius: 30px;
         padding: 2%;
+        box-sizing: border-box;
+        transition: all 0.5s ease;
+        animation: fade 1s 15s 1 backwards ease-in-out;
     }
 
     .review3{
@@ -377,7 +457,15 @@ article{
         margin: 20px 20px 20px 10px;
         border-radius: 30px;
         padding: 2%;
+        box-sizing: border-box;
+        transition: all 0.5s ease;
+        animation: fade 1s 16s 1 backwards ease-in-out;
     }
+
+    .review1:hover,.review2:hover,.review3:hover{
+        box-shadow: 0px 0px 7px 7px grey;
+    }
+
     .review1 img, .review2 img, .review3 img{
         border-radius: 50px;
     }
@@ -393,6 +481,11 @@ article{
             color: #939191;
             font-size: 2px;
             font-weight: 100;
+            animation: fade 1s 17s 1 backwards ease;
+            transition: all 0.2s ease;
+        }
+        a:hover{
+            background-color: #201F1F;
         }
     }
 }
@@ -404,6 +497,7 @@ article{
     display: flex;
     .information{
         margin: 100px;
+        animation: LtoR 2s 18s 1 backwards ease;
         h1{
             font-size: 48px;
         }
@@ -414,6 +508,7 @@ article{
     .contact{
         margin: 100px;
         display: block;
+        animation: RtoL 2s 18s 1 backwards ease;
         h3{
             font-weight: 600;
             margin-bottom: 40px;
@@ -429,6 +524,7 @@ article{
 
 footer{
     color: white;
+    animation: DOWNtoUP_transparent 2s 7s 1 backwards ease;
     .background{
         position: absolute;
         z-index: 1;
@@ -445,10 +541,16 @@ footer{
         display: flex;
         justify-content: center;
         padding-top: 20px; 
+        padding-top: 20px; 
         a{
+            transition: all 0.5s ease;
             color: white;
         }
     }
+    .menu1 a:hover{
+        color: #939191;
+    }
+    /*Bikin hovernya ya biar dia ga gabung ama yang di header*/
     .menu2{
         position: relative;
         z-index: 4; 
@@ -456,8 +558,139 @@ footer{
         margin: -40px 50px;
         justify-content: end;
         padding-top: 20px; 
+        p{
+            color: white;
+            transition: all 0.2s ease;
+        }
     }
-    .menu2:hover{
-        color:#939191
+    .menu2 p:hover{
+        color: #939191;
+        
+    }
+}
+
+/*Keyframes*/
+@keyframes UPtoDOWN{
+    0%{
+        transform: translate(0px, -200px);
+    }
+    25%{
+        transform: translate(0px, -100px);
+    }
+    50%{
+        transform: translate(0px, -50px);
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
+
+@keyframes RtoL{
+    0%{
+        transform: translate(1000px, 0px);
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
+
+@keyframes LtoR{
+    0%{
+        transform: translate(-2000px);
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
+
+@keyframes RtoL_transparent{
+    0%{
+        transform: translate(1000px, 0px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes LtoR_transparent{
+    0%{
+        transform: translate(-2000px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes zoom{
+    0%{
+        opacity: 0;
+        transform: scale(0);
+    }
+    50%{
+        opacity: 0.5;
+        transform: scale(1.1);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes DOWNtoUP_transparent{
+    0%{
+        transform: translate(0px, 200px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes UPtoDOWN_transparent{
+    0%{
+        transform: translate(0px, -100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes menu{
+    0%{
+        font-size: 14px;
+    }
+    50%{
+        font-size: 15px;
+    }
+    100%{
+        font-size: 14px;
+    }
+}
+
+@keyframes normalzoom{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
     }
 }
