@@ -821,6 +821,7 @@ p{
         width: 60vh;
         top: 0;
         right: -2000px;
+        display:none;
     }
 
     .menu1 a{
