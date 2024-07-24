@@ -18,7 +18,7 @@ nav{
 }
 
 header>.menu{
-    animation: UPtoDOWN 1.5s 1 backwards ease-out;
+    /*animation: UPtoDOWN 1.5s 1 backwards ease-out;*/
 }
 
 .menu {
@@ -78,7 +78,7 @@ a{
 
 .first>img{
     margin-top: 0px;
-    animation: RtoL 2s 1 backwards ease-out;
+    /*animation: RtoL 2s 1 backwards ease-out;*/
 }
 
 .first>p{
@@ -86,7 +86,7 @@ a{
     position: absolute;
     font-weight: 600;
     font-size: 16px;
-    animation: LtoR 2s 1 backwards ease-out;
+    /*animation: LtoR 2s 1 backwards ease-out;*/
 }
 
 article{
@@ -98,7 +98,7 @@ article{
         font-size: 48px;
         text-align: center;
         margin-top: 50px;
-        animation: RtoL_transparent 2s 2s 1 backwards ease;
+        /*animation: RtoL_transparent 2s 2s 1 backwards ease;*/
         transition: all 0.2s ease;
     }
 
@@ -111,7 +111,7 @@ article{
         font-size: 38px;
         text-align: center;
         margin-top: 50px;
-        animation: LtoR_transparent 2s 4s 1 backwards ease;
+        /*animation: LtoR_transparent 2s 4s 1 backwards ease;*/
         transition: all 0.2s ease;
     }
 
@@ -123,7 +123,7 @@ article{
 
 .strength1{
     display: flex;
-    animation: zoom 2s 3s 1 backwards ease;
+    /*animation: zoom 2s 3s 1 backwards ease;*/
 }
 
 .support{
@@ -182,7 +182,7 @@ article{
     margin: 80px 15px;
     box-sizing: border-box;
     transition: all 0.2s ease;
-    animation: DOWNtoUP_transparent 2s 7s 1 backwards ease-out;
+    /*animation: DOWNtoUP_transparent 2s 7s 1 backwards ease-out;*/
     a{
         color: white;
         background-color: #201F1F;
@@ -227,7 +227,7 @@ article{
     margin: 120px 15px;
     box-sizing: border-box;
     transition: all 0.2s ease;
-    animation: DOWNtoUP_transparent 2s 5s 1 backwards ease-out;
+    /*animation: DOWNtoUP_transparent 2s 5s 1 backwards ease-out;*/
     h3{
         font-size: 18px;
     }
@@ -254,7 +254,7 @@ article{
     min-width: 100px;
     box-sizing: border-box;
     transition: all 0.2s ease;
-    animation: DOWNtoUP_transparent 2s 6s 1 backwards ease-out;
+    /*animation: DOWNtoUP_transparent 2s 6s 1 backwards ease-out;*/
     .headset{
         position: absolute;
         margin: 60px 0px 0px -40px;
@@ -284,29 +284,29 @@ article{
         font-weight: 800;
         font-size: 48px;
         margin: 0px 30px 10px 30px;
-        animation: UPtoDOWN_transparent 2s 8s 1 backwards ease;
+        /*animation: UPtoDOWN_transparent 2s 8s 1 backwards ease;*/
     }
     .category{
         margin: 20px;
         display: flex;
         justify-content: space-around;
-        animation: fade 2s 9s 1 backwards ease-in-out;
+        /*animation: fade 2s 9s 1 backwards ease-in-out;*/
     }
     .buy{
         align-content: center;
         justify-content: center;
-        max-width: 180px;
-        min-height: 200px;
+        max-width: 160px;
+        min-height: 160px;
         background-color: white;
         border: solid black 7px;
         box-sizing: border-box;
         transition: all 0.2s ease;
         .price{
             display: flex;
-            margin: 15px 65px;
+            margin: 15px 50px;
         }
         .product{
-            margin: 0px 50px;
+            margin: 0px 35px;
         }
         .cart{
             margin: -42px 5px;
@@ -315,15 +315,16 @@ article{
     .buy_grey{
         align-content: center;
         justify-content: center;
-        max-width: 180px;
-        min-height: 200px;
+        max-width: 160px;
+        min-height: 160px;
         background-color: white;
         border: solid #D9D9D9 7px;
         box-sizing: border-box;
         transition: all 0.2s ease;
         .price{
             display: flex;
-            margin: 15px 65px;
+            margin: 15px 50px;
+            align-items: center;
         }
         .product{
             margin: 0px 50px;
@@ -377,7 +378,7 @@ article{
 
     .sale2{
         margin: 120px 0px 120px 80px;
-        animation: RtoL 2s 11s 1 backwards ease-out;
+        /*animation: RtoL 2s 11s 1 backwards ease-out;*/
     }
     .blocks{
         margin: 20px 5px 30px 5px;
@@ -409,7 +410,7 @@ article{
     h1{
         font-size: 34px;
         padding: 3%;
-        animation: UPtoDOWN_transparent 2s 13s 1 backwards ease-out;
+        /*animation: UPtoDOWN_transparent 2s 13s 1 backwards ease-out;*/
         transition: all 0.2s ease;
     }
 
@@ -437,7 +438,7 @@ article{
         padding: 2%;
         box-sizing: border-box;
         transition: all 0.5s ease;
-        animation: fade 1s 14s 1 backwards ease-in-out;
+        /*animation: fade 1s 14s 1 backwards ease-in-out;*/
     }
 
     .review2{
@@ -448,7 +449,7 @@ article{
         padding: 2%;
         box-sizing: border-box;
         transition: all 0.5s ease;
-        animation: fade 1s 15s 1 backwards ease-in-out;
+        /*animation: fade 1s 15s 1 backwards ease-in-out;*/
     }
 
     .review3{
@@ -459,7 +460,7 @@ article{
         padding: 2%;
         box-sizing: border-box;
         transition: all 0.5s ease;
-        animation: fade 1s 16s 1 backwards ease-in-out;
+        /*animation: fade 1s 16s 1 backwards ease-in-out;*/
     }
 
     .review1:hover,.review2:hover,.review3:hover{
@@ -481,7 +482,7 @@ article{
             color: #939191;
             font-size: 2px;
             font-weight: 100;
-            animation: fade 1s 17s 1 backwards ease;
+            /*animation: fade 1s 17s 1 backwards ease;*/
             transition: all 0.2s ease;
         }
         a:hover{
@@ -497,7 +498,7 @@ article{
     display: flex;
     .information{
         margin: 100px;
-        animation: LtoR 2s 18s 1 backwards ease;
+        /*animation: LtoR 2s 18s 1 backwards ease;*/
         h1{
             font-size: 48px;
         }
@@ -508,7 +509,7 @@ article{
     .contact{
         margin: 100px;
         display: block;
-        animation: RtoL 2s 18s 1 backwards ease;
+        /*animation: RtoL 2s 18s 1 backwards ease;*/
         h3{
             font-weight: 600;
             margin-bottom: 40px;
@@ -524,7 +525,7 @@ article{
 
 footer{
     color: white;
-    animation: DOWNtoUP_transparent 2s 7s 1 backwards ease;
+    /*animation: DOWNtoUP_transparent 2s 7s 1 backwards ease;*/
     .background{
         position: absolute;
         z-index: 1;
@@ -692,5 +693,294 @@ footer{
     }
     100%{
         transform: scale(1);
+    }
+}
+
+/*about section*/
+
+.about{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sixth_about{
+    margin-top: 60px;
+    background-color:#222020;
+    color: white;
+    display: flex;
+    .information{
+        margin: 100px;
+        /*animation: LtoR 2s 1 backwards ease;*/
+        h1{
+            font-size: 48px;
+        }
+        img{
+            margin-top: 50px;
+        }
+    }
+    .contact{
+        margin: 100px;
+        display: block;
+        /*animation: LtoR 2s 1 backwards ease;*/
+        h3{
+            font-weight: 600;
+            margin-bottom: 40px;
+        }
+        h4{
+            color:#939191;
+            font-weight: 600;
+            font-size: 14px;
+        }
+    }
+}
+
+.footer_about{
+    color: white;
+    /*animation: DOWNtoUP_transparent 2s 1 backwards ease;*/
+    .background{
+        position: absolute;
+        z-index: 1;
+    }
+    .logo{
+        width: 10%;
+        position: absolute;
+        z-index: 2;
+        margin: 35px 40px 0px;
+    }
+    .menu1{
+        position: relative;
+        z-index: 3; 
+        display: flex;
+        justify-content: center;
+        padding-top: 20px; 
+        padding-top: 20px; 
+        a{
+            transition: all 0.5s ease;
+            color: white;
+        }
+    }
+    .menu1 a:hover{
+        color: #939191;
+    }
+    /*Bikin hovernya ya biar dia ga gabung ama yang di header*/
+    .menu2{
+        position: relative;
+        z-index: 4; 
+        display: flex;
+        margin: -40px 50px;
+        justify-content: end;
+        padding-top: 20px; 
+        p{
+            color: white;
+            transition: all 0.2s ease;
+        }
+    }
+    .menu2 p:hover{
+        color: #939191;   
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .logo{
+        width: 15%;
+        margin-left: 15px;
+        height: auto;
+        object-fit: contain;
+    }
+
+    nav{
+        font-size: 10px;
+    }
+
+    .menu1{
+        overflow: hidden;
+        position: fixed;
+        background: #222020;
+        height: 100vh;
+        width: 60vh;
+        top: 0;
+        right: -200px;
+    }
+
+    .menu1 a{
+        display: block;
+        margin: 10px;
+        color: #D9D9D9;
+    }
+
+    .menu2{
+        position: absolute;
+        top: -10px;
+        right: 20px;
+        a{
+            font-size: 8px;
+        }
+    }
+
+    .first>img{
+        height: 50%vh;
+        object-fit: contain;
+        margin: 50px;
+        justify-content: center;
+    }
+
+    .first>p{
+        font-size: 10px;
+        margin: -50px 100px;
+        justify-content: center;
+    }
+
+    .second{
+        .strength{
+            margin: 0 -510px;
+            align-content: center;
+            h1{
+                font-size: 16px;
+            }
+            .strength1{
+                display: block;
+                margin: 0;
+                .support{
+                    margin: 20px 500px;
+                    .circle{
+                        width: 9%;
+                    }
+                }
+                .cashback{
+                    margin: 0px 500px;
+                    .circle{
+                        width: 9%;
+                    }
+                }
+                .payment{
+                    margin: 20px 500px;
+                    .circle{
+                        width: 9%;
+                    }
+                }
+                h3{
+                    font-size: 12px;
+                }
+                p{
+                    font-size: 10px;
+                }
+            }
+
+            h2{
+                font-size: 16px;
+            }
+            .strength2{
+                display: flex;
+            }
+        }
+    }
+    .third{
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        h1{
+            font-size: 20px;
+            display: flex;
+            align-self: center;
+        }
+        .category{
+            display: block;
+            margin: 0px 40px;
+            .buy{
+                display: inline-block;
+                margin: 0px 1px 10px;
+            }
+            .buy_grey{
+                display: inline-block;
+            }
+        }
+    }
+    .third>span{
+        margin: 0;
+    }
+    .fourth{
+        display: flex;
+        flex-direction: column;
+        .sale{
+            align-self: center;
+            margin: 50px;
+            img{
+                width: 50%;
+            }
+            h3{
+                font-size: 36px;
+            }
+            h1{
+                font-size: 48px;
+                text-align: center;
+            }
+        }
+        .sale2{
+            margin: 10px;
+            h2{
+                text-align: center;
+                font-size: 36px;
+            }
+            .blocks{
+                margin: 30px;
+                .variant, .recommended, .protection{
+                    text-align: center;
+                    p{
+                        text-align: center;
+                    }
+                }
+            }
+            a{
+                margin: 0 145px 20px;
+                display: inline-block;
+            }
+        }
+    }
+    .fifth{
+        h1{
+            font-size: 24px;
+        }
+        .reviews{
+            .review1{
+                margin: 8px;
+                width: 95vw;
+            }
+            .review2{
+                display: none;
+                margin: 8px;
+                width: 95vw;
+            }
+            .review3{
+                display: none;
+                margin: 8px;
+                width: 95vw;
+            }
+        }
+    }
+    footer{
+        .menu_footer{
+            display: none;
+        }
     }
 }
