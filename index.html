@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><!DOCTYPE html>
-<html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
@@ -11,20 +9,27 @@
 <body>
     <header>
         <div class="menu">
-        <img class="logo" src="img/MySound.png" alt="">
-        <span></span>
+        <div class="logo"><img src="img/MySound.png" alt=""></div>
+        <div class="burger_menu">
+            <span></span>
+        </div>
+            <span></span>
         <nav class="menu1">
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="#service">Services</a>
-            <a href="">Partnership</a>
-            <a href="#contact">Contact</a>
+            <ul class="menu1_header">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="">Partnership</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
         <span class="separate"></span>
             <nav class="menu2">
-                <a href="">My Cart</a>
-                <span class="separate2"></span>
-                <a href="">Register</a>
+                <ul class="menu2_header">
+                    <li><a href="cart.php">My Cart</a></li>
+                    <span class="separate2"></span>
+                    <li><a href="">Register</a></li>
+                </ul>
             </nav>
         </div>
     </header>
@@ -38,19 +43,19 @@
         <div class="strength1">
         <div class="support">
            <img class="circle" style="margin: -3px -3px; position: absolute; z-index: 1;" width="2%" src="img/Circle.png" alt="">
-           <img style="position: relative; z-index: 2;" width="7%" src="img/Icon_2.png" alt=""> 
+           <img style="position: relative; z-index: 2;" width="17.5 vw" src="img/Icon_2.png" alt=""> 
            <h3>Online Support</h3>
            <p>Provide online technical support <br> for our customers  24/7</p>
         </div>
         <div class="cashback">
             <img class="circle" style="margin: -3px -3.3px; position: absolute; z-index: 1;" width="2%" src="img/Circle.png" alt="">
-            <img style="position: relative; z-index: 2;" width="7%" src="img/Icon_1.png" alt="">
+            <img style="position: relative; z-index: 2;" width="17.5 vw" src="img/Icon_1.png" alt="">
             <h3>Shipping Cashback</h3>
             <p>Up to 50%-70%  off shipping rate <br> on purchase over $ 45!</p>
         </div>
         <div class="payment">
             <img class="circle" style="margin: -3px -3.3px; position: absolute; z-index: 1;" width="2%" src="img/Circle.png" alt="">
-            <img style="position: relative; z-index: 2;" width="7%" src="img/Icon.png" alt="">
+            <img style="position: relative; z-index: 2;" width="17.5 vw" src="img/Icon.png" alt="">
             <h3>Secure Payment</h3>
             <p>Guaranteed safe and accept all <br> cards</p>
         </div>
@@ -99,7 +104,7 @@
         <span></span>
         <div class="category">
             <div style="flex: 1;" class="buy">
-                <p style="padding: 2px; margin: -12px 0px 0px -2px; position: absolute; background-color: #818181; color: white; display: inline-block;">-10%</p>
+                <p style="padding: 2px; margin: -4px 0px 0px -2px; position: absolute; background-color: #818181; color: white; display: inline-block;">-10%</p>
                 <img width="55%" src="img/bp 1.png" alt="" class="product">
                 <h3 style="font-size: 14px; color: #4D4D4D; text-align: center;">Blackpink <br> Headphone</h3>
                 <div class="price">
@@ -312,4 +317,6 @@
         </nav>
         </div>
      </footer>
+     <script src="script.js"></script>
 </body>
+</html>
