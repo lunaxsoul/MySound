@@ -52,9 +52,9 @@ header{
     padding: 0;
 }
 
-header>.menu{
+/* header>.menu{
     animation: UPtoDOWN 1.5s 1 backwards ease-out;
-}
+} */
 
 .menu1{
     transition: color 0.2s ease;
@@ -919,7 +919,7 @@ p{
     .menu2{
         position: absolute;
         top: 15px;
-        right: 40vw;
+        right: 35vw;
         a{
             font-size: 10px;
         }
@@ -927,58 +927,63 @@ p{
 
     .first>img{
         height: 50%;
+        width: 73vw;
         object-fit: contain;
         padding: 0;
         margin: 0px 60px;
     }
 
     .first>p{
-        font-size: 8px;
-        margin: -25px 145px;
-        justify-content: center;
+        font-size: 2vw;
+        margin: -25px 140px;
+        right: 0;
+        display: flex;
     }
 
     .second{
+        overflow:hidden;
         .strength{
             margin: 0 -510px;
             align-content: center;
             h1{
-                font-size: 16px;
+                font-size:5vw;
             }
             .strength1{
                 display: block;
                 margin: 0;
                 .support, .payment{
                     width: 250px;
-                    margin: 20px 600px;
+                    margin: 50px 595px;
                     .circle{
                         width: 5.5%;
                     }
                 }
                 .cashback{
                     width: 250px;
-                    margin: 0 600px;
+                    margin: 0 595px;
                     .circle{
                         width: 5.5%;
                     }
                 }
                 h3{
-                    font-size: 12px;
+                    font-size: 4vw;
                 }
                 p{
-                    font-size: 10px;
+                    font-size: 3vw;
                 }
             }
 
             h2{
-                font-size: 16px;
+                font-size: 5vw;
             }
             .strength2{
+                margin: 0;
                 display: flex;
             }
         }
     }
     .third{
+        overflow:hidden;
         margin: 10px;
         display: flex;
         flex-direction: column;
@@ -1003,6 +1008,7 @@ p{
         margin: 0;
     }
     .fourth{
+        overflow: hidden;
         display: flex;
         flex-direction: column;
         .sale{
@@ -1023,11 +1029,13 @@ p{
             margin: 10px;
             h2{
                 text-align: center;
-                font-size: 36px;
+                font-size: 8vw;
             }
             .blocks{
-                margin: 30px;
+                margin: 2.5vw 2.5vh;
                 .variant, .recommended, .protection{
+                    font-size: 4vw;
+                    justify-content: start;
                     text-align: center;
                     p{
                         text-align: center;
@@ -1035,12 +1043,15 @@ p{
                 }
             }
             a{
-                margin: 0 145px 20px;
-                display: inline-block;
+                margin: 20px 35vw;
+                max-width: 90px;
+                min-width:90px;
+                display: flex;
             }
         }
     }
     .fifth{
+        overflow: hidden;
         h1{
             font-size: 24px;
         }
@@ -1068,7 +1079,19 @@ p{
             
         }
     }
+    .sixth{
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        .information{
+            margin: 20vw;
+        }
+        .contact{
+            margin: 0 20vw 20px;
+        }
+    }
     footer{
+        overflow: hidden;
         .menu_footer{
             display: none;
         }
