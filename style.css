@@ -930,13 +930,13 @@ p{
         width: 73vw;
         object-fit: contain;
         padding: 0;
-        margin: 0px 60px;
+        margin: 0px 15vw;
     }
 
     .first>p{
         font-size: 2vw;
-        margin: -25px 140px;
-        right: 0;
+        min-width: 150px;
+        margin: -25px 35vw;
         display: flex;
     }
 
@@ -993,8 +993,8 @@ p{
             align-self: center;
         }
         .category{
-            display: block;
-            margin: 0px 40px;
+            display: inline-block;
+            margin: 0 7vw;
             .buy{
                 display: inline-block;
                 margin: 0px 1px 10px;
